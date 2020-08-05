@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="left">
+        <div type="button" id="view-highscore">
+          <button onclick="getScore()" href="#">View Highscore</button>
+        </div>
+      </div>
+      <div class="right">
+        <h1>Timer: <span id="timer">0</span></h1>
+      </div>
+    </nav>
+    <br />
+    <div>
+      <section id="start" class="start-screen">
+        <h1>Code Quiz</h1>
+        <p>
+        Click Start To Begin!
+        </p>
+        <button type="button" id="start-bttn">Start!</button>
+      </section>
+    </div>
+    <section class="quiz-screen">
+      <h1>Question</h1>
+      <p id="question-prompt"></p>
+      <a class="answers">
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+        <li><button></button></li>
+      </a>
+      <p id="last-result"></p>
+    </section>
+
+    <section class="enter-hs-screen">
+      <h1>Enter Highscore</h1>
+      <form>
+        <input type="text" id="highscore-name" placeholder="Enter Name" />
+        <button id="hs-cancel">Cancel</button>
+        <button id="hs-submit">Submit</button>
+      </form>
+    </section>
+
+    <section id="highscores" class="leaderboard-screen">
+      <h1>Highscores</h1>
+      <ul id="leader" class="leader-boards"></ul>
+      <button id="back-to-start" type="button">Back to Start</button>
+    </section>
+
+    <script src="questions.js"></script>
+  </body>
+</html>

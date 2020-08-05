@@ -1,0 +1,74 @@
+body {
+  background-image: url("https://content.thriveglobal.com/wp-content/uploads/2019/10/Questions.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.quiz-screen {
+  display: none;
+  text-align: center;
+}
+.enter-hs-screen {
+  display: none;
+  text-align: center;
+}
+#highscores {
+  display: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+p {
+  font-weight: bolder;
+}
+#leader * {
+  display: list-item;
+  list-style-type: none;
+  padding-right: 5%;
+}
+#start-bttn {
+  border: none;
+  background-color: #241ab8;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  font-size: 17px;
+  font-family: "Roboto Slab", arial;
+  margin: 4px;
+}
+
+#start {
+  text-align: center;
+}
+.navbar {
+  display: block;
+  display: inline-block;
+  width: 97%;
+  border: 3px solid #241ab8;
+  border-radius: 5px;
+  margin: 6px;
+}
+.right {
+  float: right;
+  margin-right: 20px;
+}
+.left {
+  float: left;
+  margin-left: 20px;
+}
+#view-highscore {
+  /* margin-top: 5px;
+  margin-bottom: 2px;
+  background-color: lightgrey;
+  border-color: transparent; */
+  border: none;
+  background-color: #241ab8;
+  color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px 16px 10px 16px;
+  font-size: 17px;
+  font-family: "Roboto Slab", arial;
+  /* margin: 4px; */
+}
